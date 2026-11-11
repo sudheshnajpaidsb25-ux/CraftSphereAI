@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Uploads
+backend/uploads/
+backend/craftsphere.db-journal
+
+# PyTorch / IDE
+.vscode/
+.idea/
+*.swp
+
+# Exclude backend virtual environment
+/backend/venv310/
+
+# Exclude local database
+/backend/craftsphere.db
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+
+# Exclude environment files
+.env
+.env.*
+/backend/venv310/
+/backend/craftsphere.db
+__pycache__/
+*.pyc
+.env
+.env.*

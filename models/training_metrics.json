@@ -1,0 +1,100 @@
+{
+  "model_architecture": "MobileNetV2 (Transfer Learning with Custom Dropout & Dense Head)",
+  "framework": "PyTorch / Torchvision",
+  "dataset_version": "v1.0-GoanHeritageCrafts",
+  "split_ratio": "70% Train / 15% Val / 15% Test",
+  "epochs": 4,
+  "test_accuracy": 1.0,
+  "test_accuracy_percentage": 100.0,
+  "classes": [
+    "bamboo_cane",
+    "handloom",
+    "pottery",
+    "wood_carving"
+  ],
+  "classification_report": {
+    "bamboo_cane": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "handloom": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "pottery": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "wood_carving": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "training_history": {
+    "train_loss": [
+      1.2946,
+      0.842,
+      0.3933,
+      0.287
+    ],
+    "val_loss": [
+      1.0959,
+      0.6183,
+      0.2737,
+      0.1689
+    ],
+    "val_acc": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}
